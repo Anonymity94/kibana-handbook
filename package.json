@@ -1,0 +1,27 @@
+{
+  "name": "kibana-user-guide",
+  "version": "1.0.0",
+  "description": "kibana用户手册[中文版]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh",
+    "build": "vuepress build .",
+    "dev": "vuepress dev ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anonymity94/kibana-user-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anonymity94/kibana-user-guide/issues"
+  },
+  "homepage": "https://github.com/Anonymity94/kibana-user-guide#readme",
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.3",
+    "@vuepress/plugin-medium-zoom": "^1.0.3",
+    "vuepress": "^1.0.3"
+  }
+}
